@@ -1,0 +1,28 @@
+.backbtn{
+    margin-left: 24px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    margin-bottom: 24px;
+    cursor: pointer;    
+}
+.detailcontainer{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.col-side {
+    flex: 0 0 240px;
+  }
+  
+  #col2 { flex: 1; }
+  
+  .detailcontainer > div + div {
+    border-left: 2px solid rgba(0, 0, 0, 0.12);
+  }
+  
+  /* #col1 { background-color: lightgreen; }
+  #col2 { background-color: tomato; }*/
+  #col3 { 
+    font-weight: bold;
+   } 
